@@ -19,7 +19,7 @@ public class SimulacroDeOrientacion : MonoBehaviour
         {
             Debug.Log(" El curso no es valido");
             return;
-        }else if ( Curso > 3 )
+        }else if ( Curso < 3 )
         {
             Debug.Log("Error. Aún estás en el ciclo básico");
             return;
