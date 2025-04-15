@@ -29,7 +29,7 @@ public class SimulacroDeOrientacion : MonoBehaviour
             return;
         }else
         {
-            Debug.Log(" Muchas gracias" + nombreAlumno);
+            Debug.Log(" Muchas gracias " + nombreAlumno);
         }
 
     }
