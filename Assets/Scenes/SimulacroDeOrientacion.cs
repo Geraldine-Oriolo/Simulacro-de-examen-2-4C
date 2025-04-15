@@ -23,7 +23,7 @@ public class SimulacroDeOrientacion : MonoBehaviour
         {
             Debug.Log("Error. Aún estás en el ciclo básico");
             return;
-        }else if (orientacion != "T" & orientacion != "D" & orientacion != "G" & orientacion != "M" & orientacion != "H")
+        }else if (orientacion != "T" && orientacion != "D" && orientacion != "G" && orientacion != "M" && orientacion != "H")
         {
             Debug.Log("Solo puede ingresar T, D, G, M o H");
             return;
